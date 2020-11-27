@@ -6,4 +6,5 @@ app.use((ctx) => {
   ctx.response.body = "Hello world!";
 });
 
-await app.listen("127.0.0.1:8000");
+console.log('server running at port 9000')
+await app.listen("127.0.0.1:9000");
